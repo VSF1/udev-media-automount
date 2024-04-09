@@ -1,0 +1,4 @@
+# -*- sh -*-
+
+# Options to use for auto-mounting devices detected with a exfat filesystem 
+AUTOMOUNT_OPTS='errors=remount-ro,relatime,users,gid=100,dmask=000,fmask=111'
